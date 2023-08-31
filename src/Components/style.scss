@@ -1,0 +1,78 @@
+.stockData{
+    display: flex;
+    min-height: 8vh;
+    max-width: 58vw;
+}
+
+.details1{
+    text-align: left;
+    min-width: 16vw;
+    margin-left: 9px;
+}
+
+
+.details2{
+    min-width: 17vw;
+    margin-right: -52px;
+    text-align: left;
+    margin-left: 55%;
+}
+
+.contentNav{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid;
+    min-width: 91vw;
+}
+
+.stockExchange{
+    background-color: lightgray;
+    max-width: 4vw;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.stockData:hover{
+    background-color: grey;
+}
+
+.icon{
+    margin-top: 2px;
+    size: 80px;
+}
+
+.stockData:hover{
+
+    .icon{
+        color: red ;
+        visibility: visible;
+        
+    }
+}
+
+.icon{
+    visibility: hidden;
+}
+
+.stockView{
+    min-width: 100vw;
+}
+
+.myWatchList{
+    margin-left: 42px
+}
+
+.header{
+    height: 18vh;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.stockDataList{
+    min-height: 100vh;
+}
+
+.stock{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
