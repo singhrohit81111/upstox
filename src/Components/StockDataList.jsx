@@ -33,7 +33,7 @@ export default function StockDataList() {
                 <span>Search:</span>
                 <input type='text' placeholder='search here' />
             </div>
-            <div>
+            <div className='info'>
                 {stocks.map(stock => {
                     return <div className='stockData'>
                         <div className='details1'>

@@ -22,7 +22,7 @@
     display: flex;
     justify-content: flex-start;
     border-bottom: 1px solid;
-    min-width: 91vw;
+    min-width: 99vw;
 }
 
 .stockExchange{
@@ -56,6 +56,7 @@
 
 .stockView{
     min-width: 100vw;
+    margin-top: 7px;
 }
 
 .myWatchList{
@@ -70,9 +71,14 @@
 
 .stockDataList{
     min-height: 100vh;
+    margin: 0px 10px;
 }
 
 .stock{
     color: blue;
     border-bottom: 2px solid blue;
+}
+
+.info{
+    margin-top: 10px;
 }
